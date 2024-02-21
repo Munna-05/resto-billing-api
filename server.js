@@ -14,7 +14,7 @@ try {
     app.listen(5001, () => {
  
         console.log(`server started ${5001}`)
-        mongoose.connect(`mongodb+srv://sajeevmunna05:701223munna@cluster0.ofh15uh.mongodb.net/?retryWrites=true&w=majority`).then(() => {
+        mongoose.connect(``).then(() => {
             console.log("DataBase connection successfull")
         }).catch((err) => {
             console.log('Connection Error',err)
